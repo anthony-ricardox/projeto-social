@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+body{   
+    background-image: url('imagens/fundo-madeira.jpg');
+}
+
+div.rede{   
+    background-image: url('imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 700px;
+    margin: auto;
+
+    position: relative;
+
+}
+
+div#rede{   
+    position: absolute;
+    top: 11.3%;
+    left: 5%;
+    
+}
+
+div#rede iframe{   
+    
+    width: 270px;
+    height: 470px;
+    
+ 
+}
