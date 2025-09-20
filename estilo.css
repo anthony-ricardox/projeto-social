@@ -62,12 +62,15 @@ img{
     border-radius: 50%;
     width: 60px;
     margin: 10px;
+    box-sizing: border-box;
     
     
 }
 img:hover{  
     border: 2px solid white;
-    transition-duration: 200ms;
+    transform: translate(-3%, -3%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
+    transition: transform .3s, border .3s ;
 }
 
 
